@@ -8,11 +8,11 @@ export default function Projects() {
  return (
   <>
    <Header />
-   <div className="flex flex-col items-center space-y-10 py-10">
-    <div className="flex font-mono text-4xl text-center">
+   <div className="flex flex-col items-center space-y-10 py-10 sm:px-30">
+    <div className="flex text-4xl text-center">
      <p className="text-white">{t.projects}</p>
     </div>
-    <div className="flex flex-wrap gap-6 justify-center">
+    <div className="flex flex-wrap gap-10 justify-center">
      {projects &&
       projects.map((project) => {
        return <CardProject project={project} />;

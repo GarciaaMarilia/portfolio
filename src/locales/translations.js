@@ -22,7 +22,7 @@ const translations = {
   language: "Langage",
   welcome: "Bienvenue sur mon site web!",
   aboutText:
-   "Développeuse Fullstack avec 3 ans d'expérience, compétente en React.js, React Native et Node.js. Je construis des composants réutilisables pour des sites web et des applications mobiles, et je veille  à ce qu'ils fonctionnent bien sur différents appareils",
+   "Développeuse Fullstack avec 3 ans d'expérience, compétente en React.js, React Native et Node.js. Je construis des composants réutilisables pour des sites web et des applications mobiles, et je veille  à ce qu'ils fonctionnent bien sur différents appareils.",
   contact: "Connectez-vous avec moi:",
   front: "Dépôt frontend",
   back: "Dépôt backend",

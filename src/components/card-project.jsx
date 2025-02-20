@@ -4,9 +4,9 @@ export default function CardProject(project) {
  const { project: projectData } = project;
  const { t } = useLanguage();
  return (
-  <div className="flex flex-col bg-zinc-800 w-[450px] rounded-2xl p-6 shadow-2xl text-white font-mono space-y-4 items-center">
+  <div className="flex flex-col bg-zinc-800 w-[450px] rounded-2xl p-6 shadow-2xl text-white text-2xl font-mono space-y-4 items-center">
    <h1>{projectData.title}</h1>
-   <div className="space-x-10">
+   <div className="space-x-10 text-xl">
     <a
      target="_blank"
      href={projectData.front}
@@ -27,7 +27,7 @@ export default function CardProject(project) {
    {projectData.image ? (
     <img src={projectData.image} alt="Pr Tracker Project" />
    ) : (
-    <video autoplay loop>
+    <video autoplay loop controls>
      <source src={projectData.video} type="video/mp4" />
      Your browser does not support the video tag.
     </video>

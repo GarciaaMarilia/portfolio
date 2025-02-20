@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AlignLeft, House, X } from "lucide-react";
+import { AlignLeft, House, Laptop, X } from "lucide-react";
 
 import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../contexts/language-context";
@@ -45,23 +45,23 @@ export default function Sidebar() {
      <X />
     </button>
 
-    <nav className="mt-10 space-y-4">
+    <nav className="mt-8 space-y-4">
      <button
-      className="block p-2 hover:bg-zinc-700 rounded"
+      className="block p-2 hover:bg-zinc-950 rounded w-full"
       onClick={() => handleNavigation("home")}
      >
-      <div className="flex flex-row gap-2">
-       <House className="size-5" />
-       <p>{t.home}</p>
+      <div className="flex flex-row items-center gap-2">
+       <House className="size-6" />
+       <p className="text-2xl">{t.home}</p>
       </div>
      </button>
      <button
-      className="block p-2 hover:bg-zinc-700 rounded"
+      className="block p-2 hover:bg-zinc-950 rounded w-full"
       onClick={() => handleNavigation("projects")}
      >
-      <div className="flex flex-row gap-2">
-       <House className="size-5" />
-       <p>{t.projects}</p>
+      <div className="flex flex-row items-center gap-2">
+       <Laptop className="size-6" />
+       <p className="text-2xl">{t.projects}</p>
       </div>
      </button>
     </nav>

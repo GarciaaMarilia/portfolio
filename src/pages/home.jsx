@@ -11,11 +11,11 @@ export default function Home() {
    <div className="flex flex-col items-center py-10 space-y-10 text-white">
     <p className="text-white text-3xl">{t.welcome}</p>
     <img
-     src="/img/profile.jpeg"
+     src="/img/profile.png"
      alt="Profile"
      className="w-60 h-60 rounded-full object-cover"
     />
-    <div className="font-mono flex items-center text-center px-10">
+    <div className="flex items-center text-center px-16">
      <p className="text-2xl">{t.aboutText}</p>
     </div>
     <h1 className="text-xl">
