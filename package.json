@@ -3,7 +3,7 @@
  "private": true,
  "version": "0.0.0",
  "type": "module",
- "homepage": "https://garciaamarilia.github.io/portfolio/",
+ "homepage": "https://garciaamarilia.github.io/portfolio",
  "scripts": {
   "dev": "vite",
   "build": "vite build",
