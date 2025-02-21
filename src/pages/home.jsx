@@ -11,7 +11,7 @@ export default function Home() {
    <div className="flex flex-col items-center py-10 space-y-10 text-white">
     <p className="text-white text-3xl">{t.welcome}</p>
     <img
-     src="/img/profile.png"
+     src="/portfolio/img/profile.png"
      alt="Profile"
      className="w-60 h-60 rounded-full object-cover"
     />
