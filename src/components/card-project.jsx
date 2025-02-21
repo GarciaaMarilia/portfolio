@@ -4,9 +4,9 @@ export default function CardProject(project) {
  const { project: projectData } = project;
  const { t } = useLanguage();
  return (
-  <div className="flex flex-col bg-zinc-800 w-[450px] rounded-2xl p-6 shadow-2xl text-white text-2xl font-mono space-y-4 items-center">
+  <div className="flex flex-col bg-zinc-800 sm:w-[450px] w-[90%] rounded-2xl p-6 shadow-2xl text-white text-2xl font-mono space-y-4 items-center">
    <h1>{projectData.title}</h1>
-   <div className="space-x-10 text-xl">
+   <div className="flex space-x-10 space-y-2 sm:flex-row flex-col text-xl">
     <a
      target="_blank"
      href={projectData.front}

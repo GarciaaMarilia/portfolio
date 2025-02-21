@@ -5,9 +5,6 @@ export default function SelectLanguage() {
 
  return (
   <div className="flex items-center gap-3">
-   <label htmlFor="language" className="text-white text-xl">
-    {t.language}:
-   </label>
    <select
     id="language"
     value={language}
