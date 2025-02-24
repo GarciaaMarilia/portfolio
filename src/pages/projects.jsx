@@ -10,7 +10,7 @@ export default function Projects() {
    <Header />
    <div className="flex flex-col items-center space-y-10 py-10 sm:px-30">
     <div className="flex text-4xl text-center">
-     <p className="text-white">{t.projects}</p>
+     <p className="text-white font-bold">{t.projects}</p>
     </div>
     <div className="flex flex-wrap gap-10 justify-center">
      {projects &&

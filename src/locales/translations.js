@@ -2,7 +2,7 @@ const translations = {
  en: {
   title: "Marília Garcia | Fullstack Developer",
   home: "Home",
-  about: "About",
+  career: "Career history",
   contact: "Contact",
   projects: "Projects",
   welcome: "Welcome to my website!",
@@ -27,11 +27,43 @@ const translations = {
   contact: "Connect with me:",
   front: "Frontend repository",
   back: "Backend repository",
+  timelineEvents: [
+   {
+    date: "08/2021",
+    title: "Start of Internship",
+    description:
+     "I started as a frontend development intern, working on an app for a major supermarket chain.",
+   },
+   {
+    date: "04/2022",
+    title: "Hired at Logique Sistemas",
+    description:
+     "After 10 months of internship, I was hired as a frontend developer to work on industrial systems.",
+   },
+   {
+    date: "05/2022",
+    title: "Projects in Industry and Oil Sector",
+    description:
+     "Development of a mobile and web application to optimize internal processes for a large oil company.",
+   },
+   {
+    date: "01/2024",
+    title: "Oil Well Supervision",
+    description:
+     "Development of a mobile application for oil well supervision.",
+   },
+   {
+    date: "04/2024",
+    title: "Joined Contatta",
+    description:
+     "I joined the American startup Contatta as a frontend developer, working with React, React Native, and API integration.",
+   },
+  ],
  },
  fr: {
   title: "Marília Garcia | Développeuse Fullstack ",
   home: "Accueil",
-  about: "À propos",
+  career: "Parcours",
   contact: "Contact",
   projects: "Projets",
   welcome: "Bienvenue sur mon site web!",
@@ -56,6 +88,38 @@ const translations = {
   contact: "Connectez-vous avec moi:",
   front: "Dépôt frontend",
   back: "Dépôt backend",
+  timelineEvents: [
+   {
+    date: "08/2021",
+    title: "Début du stage",
+    description:
+     "J'ai commencé comme stagiaire en développement frontend, travaillant sur une application pour une grande chaîne de supermarchés.",
+   },
+   {
+    date: "04/2022",
+    title: "Embauche chez Logique Sistemas",
+    description:
+     "Après 10 mois de stage, j'ai été embauchée comme développeuse frontend pour travailler sur des systèmes industriels.",
+   },
+   {
+    date: "05/2022",
+    title: "Projets dans l'industrie et le pétrole",
+    description:
+     "Développement d’une application mobile et web pour optimiser les processus internes d'une grande entreprise pétrolière.",
+   },
+   {
+    date: "01/2024",
+    title: "Supervision des puits de pétrole",
+    description:
+     "Développement d’une application mobile de supervision des puits de pétrole.",
+   },
+   {
+    date: "04/2024",
+    title: "Entrée chez Contatta",
+    description:
+     "J'ai rejoint la startup américaine Contatta en tant que développeuse frontend, en travaillant sur React, React Native et l'intégration d'API.",
+   },
+  ],
  },
 };
 
