@@ -20,13 +20,13 @@ const projects = [
   image: null,
   video: "/portfolio/videos/inorbitproject.mp4",
  },
- //  {
- //   title: "To Do List",
- //   front: "https://github.com/GarciaaMarilia/ToDoList---ReactJS",
- //   back: null,
- //   image: null,
- //   video: "/portfolio/videos/todolistproject.mp4",
- //  },
+ {
+  title: "To Do List",
+  front: "https://github.com/GarciaaMarilia/to-do-list-react",
+  back: null,
+  image: null,
+  video: "/portfolio/videos/todolistproject.mp4",
+ },
  {
   title: "Cook App",
   front: "https://github.com/GarciaaMarilia/Cook-App",
