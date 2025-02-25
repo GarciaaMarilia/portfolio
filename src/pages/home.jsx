@@ -19,13 +19,13 @@ export default function Home() {
       />
      </div>
      <div className="flex lg:flex-row flex-col lg:space-x-14 gap-10">
-      <div className="flex flex-col bg-zinc-800 lg:w-[500px] rounded-2xl p-6 shadow-2xl text-2xl space-y-4 items-center text-center">
+      <div className="flex flex-col bg-zinc-800 lg:w-[500px] rounded-2xl p-6 shadow-xl shadow-zinc-900 text-2xl space-y-4 items-center text-center">
        <h1 className="font-semibold">{t.aboutTitle}</h1>
        {t.aboutText.map((item) => {
         return <p className="text-lg">{item}</p>;
        })}
       </div>
-      <div className="flex flex-col bg-zinc-800 lg:w-[500px] rounded-2xl p-6 shadow-2xl text-2xl space-y-4 items-center text-center">
+      <div className="flex flex-col bg-zinc-800 lg:w-[500px] rounded-2xl p-6 shadow-xl text-2xl shadow-zinc-900 space-y-4 items-center text-center">
        <h1 className="font-semibold">{t.frontTechTitle}</h1>
        <p className="text-lg">{t.frontTech}</p>
        <h1 className="font-semibold">{t.backTechTitle}</h1>
