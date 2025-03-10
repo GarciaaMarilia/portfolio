@@ -12,7 +12,7 @@ export default function Header() {
    <div className="container mx-auto flex justify-between items-center">
     <div className="flex gap-4">
      <Sidebar />
-     <h1 className="text-xl font-bold pt-2">
+     <h1 className="text-xl font-bold">
       {isMobile ? t.titleMobile : t.title}
      </h1>
     </div>
