@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import Projects from "./pages/projects";
 import Timeline from "./components/career-history";
 import { LanguageProvider } from "./contexts/language-context";
+import { ResponsiveProvider } from "./contexts/responsive-context";
 
 const router = createBrowserRouter(
  [
@@ -30,9 +31,11 @@ const router = createBrowserRouter(
 function App() {
  return (
   <StrictMode>
-   <LanguageProvider>
-    <RouterProvider router={router} />
-   </LanguageProvider>
+   <ResponsiveProvider>
+    <LanguageProvider>
+     <RouterProvider router={router} />
+    </LanguageProvider>
+   </ResponsiveProvider>
   </StrictMode>
  );
 }

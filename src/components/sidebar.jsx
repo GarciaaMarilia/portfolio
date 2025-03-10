@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { AlignLeft, FlagTriangleRight, House, Laptop, X } from "lucide-react";
 
-import { useNavigate } from "react-router-dom";
 import { useLanguage } from "../contexts/language-context";
 
 export default function Sidebar() {

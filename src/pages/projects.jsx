@@ -9,13 +9,13 @@ export default function Projects() {
   <>
    <Header />
    <div className="flex flex-col items-center space-y-10 py-10 sm:px-30">
-    <div className="flex text-4xl text-center">
+    <div className="flex lg:text-4xl text-2xl text-center">
      <p className="text-white font-bold">{t.projects}</p>
     </div>
     <div className="flex flex-wrap gap-10 justify-center">
      {projects &&
-      projects.map((project) => {
-       return <CardProject project={project} />;
+      projects.map((project, index) => {
+       return <CardProject key={index} project={project} />;
       })}
     </div>
    </div>

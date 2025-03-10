@@ -1,5 +1,6 @@
 const translations = {
  en: {
+  titleMobile: "Marília Garcia",
   title: "Marília Garcia | Fullstack Developer",
   home: "Home",
   career: "Career history",
@@ -61,6 +62,7 @@ const translations = {
   ],
  },
  fr: {
+  titleMobile: "Marília Garcia",
   title: "Marília Garcia | Développeuse Fullstack ",
   home: "Accueil",
   career: "Parcours",
